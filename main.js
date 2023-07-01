@@ -49,6 +49,6 @@ function animate() {
 
 function render() {
     planet.rotation.y += 0.03
-    renderer.render(scene.camera);
+    renderer.render(scene,camera);
 
 }
